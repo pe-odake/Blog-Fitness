@@ -1,0 +1,111 @@
+*{margin: 0;
+padding: 0;}
+
+
+body{
+    
+    background-color: black;   
+
+}    
+
+
+.cardi{
+ display: flex;
+   align-items: center;
+justify-content: space-evenly;
+flex-direction: row;
+margin-top: 30px;
+flex-wrap: wrap;
+}
+
+.dropdown-item a:hover{background-color: rgba(0, 0, 0, 0.28);}
+
+.btn:hover{background-color: orangered;
+color: white;}
+
+
+.carroselc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column; 
+}
+.cardg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+.bg-dark text-center text-white{ 
+    width: 100%;
+    
+}
+.container-fluid img{
+position: relative;
+height: 30px;
+}
+body{
+   background-image:url("https://www.whitescreen.online/image/black-background.png") ;
+}
+.hr{
+    border-color:orange;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.hr2{border-color:transparent;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+.card-body img{ 
+    width: 30px;
+    height: 30px;
+}
+
+
+.carousel-caption p{ color: orange;}
+
+.dropdown-menu:hover{
+    transform: scale(1.1);
+    background-color: rgb(7, 0, 105);
+    color: rgb(72, 255, 0);
+    cursor: pointer;
+}
+
+.hr-space{
+    background-color: transparent;
+    height: 0.01px;
+    width: 100%;
+}
+.seta{
+    justify-content: end;
+    display: flex;
+    align-items: end;
+}
+/*.carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}*/
+.minimo-space{
+    background-color: transparent;
+    height: 0.00000001px;
+    width: 100%;
+    border: none;
+    color: white;
+}
+#car,#dav,#gui,#ped{
+    text-decoration:none;
+    color:white;
+}

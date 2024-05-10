@@ -1,0 +1,59 @@
+/*esse é o css das paginas */
+
+*{margin: 0;
+    padding: 0;}
+    
+    .card{
+        display: flex;
+        align-content: center;
+    }
+    
+body{
+    background-color: black;   
+    }        
+    
+
+
+    
+    
+.bg-dark text-center text-white{ 
+    width: 100%;
+}
+
+body{
+    background-image:url("https://www.whitescreen.online/image/black-background.png") ;
+}
+
+.card-body img{ 
+    width: 30px;
+    height: 30px;
+
+}
+.card-text{
+    justify-content: flex-start;
+    text-align: left;
+}
+.card-title{
+    justify-content: flex-start;
+    text-align: left;
+}
+.hr{
+    border-color:orange;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+.card-text p a{
+    text-align: end;
+}
+.seta{
+    justify-content: end;
+    display: flex;
+    align-items: end;
+}
+#car,#dav,#gui,#ped{
+    text-decoration:none;
+    color:white;
+}

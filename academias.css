@@ -1,0 +1,98 @@
+*{margin: 0;
+    padding: 0;}
+
+    
+    body{
+    
+     background-color: black;   
+    
+    }        
+    
+    
+    /* .penumbra{
+    
+    width: 2000px;
+    height: 1275px;
+    opacity: 50%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -1500px;
+    z-index: 5;
+    
+    } */
+    
+    
+    .cardi{
+     display: flex;
+       align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    }
+    
+    
+    .cardg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    
+    .bg-dark text-center text-white{ 
+        width: 100%;
+        
+    }
+    .container-fluid img{
+    position: relative;
+    height: 30px;
+    }
+    body{
+        background-image:url("https://www.whitescreen.online/image/black-background.png") ;
+    }
+    .hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .card-body img{ 
+        width: 30px;
+        height: 30px;
+    }
+    
+    
+    .carousel-caption p{ color: orange;}
+
+.card{
+    display: flex;
+    align-content: center;
+}
+.cardp{
+    display: flex;
+    align-content: center;
+    width: 30rem;
+}
+.card img{ 
+    width: 100%;
+    height: 100%;
+}
+.card-body img{
+    width: 30px;
+    height: 30px;
+}
+.seta{
+    justify-content: end;
+    display: flex;
+    align-items: end;
+}
+.cardi p{
+    font-size: medium;
+   }
+
+   #car,#dav,#gui,#ped{
+    text-decoration:none;
+    color:white;
+}

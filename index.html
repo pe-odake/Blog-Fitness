@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elite Shape</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body style="margin: 0; padding: 0;">
+    
+    <div class="body"></div>
+
+<!-- -----------------------------------------------------------NAVBAR--------------------------------------------------------------------------------------------- -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary"style="background-color:black; height: 4rem;">
+  <div class="container-fluid " style="background-color:black; height: 4rem;">
+    <img src="Img/logo.png" alt="Logo" height="5opx" class="d-inline-block align-text-top">
+    <a class="navbar-brand" href="index.html"style="color: orangered;">Elite Shape</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="postagens.html" style="color: white;">Postagens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre nos.html" style="color: white;">Sobre nos?</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+            Parceiros
+          </a>
+          <ul class="dropdown-menu" style="background-color: black;">
+            <li><a class="dropdown-item" href="suplementos.html" style="color: orangered;">Suplementação</a></li>
+            <li><a class="dropdown-item" href="academias.html" style="color: orangered;">Academias</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn" type="submit" style="color: orangered;border-color: orangered;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg></button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+    <!-----------------------------------------------------------------------------------------------------carrossel-------------------------------------------------------------------------------->   
+<div class="carroselc"> 
+    <div id="carouselExampleCaptions" class="carousel slide" style="width: 80rem; height: 40rem;">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-67bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" style="width: 80rem;height: 40rem;">
+          <div class="carousel-caption ">
+            <h1>Review - 01</h1>
+            <p style="color: orangered;">Conheça a nova academia de Moema. </p>
+            <a href="pagina academia.html" class="btn btn-primary" style="background-color: orangered; border-color:orangered;">Acesse</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.freepik.com/fotos-gratis/mulher-com-abdomen-visivel-fazendo-fitness_23-2150228936.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1714348800&semt=ais" class="d-block w-100
+          " class="d-block w-100" style="width: 80rem;height: 40rem;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Atualizações frequentes</h5>
+            <p>Sempre te deixando por cima das mais novas notícias, dicas, eventos e tudo mais da grande cultura Fitness</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://ogimg.infoglobo.com.br/in/19343835-2aa-fc8/FT1086A/SmartFIt-075.jpg" class="d-block w-100" style="width: 80rem;height: 40rem;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ambiente cooperativo e amigável</h5>
+            <p>Aqui, você pode retirarar suas dúvidas de forma segura e confortável, não importa se você é iniciante ou um veterano!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</div>
+      <!-- ----------------------------------------------artigos para as paginas---------------------------------------------------- -->
+<hr class="hr">
+      <h1 style="display: flex;color: white; justify-content: center;">Conteúdos</h1>
+
+      <div class="cardi">
+         <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Alimentação Pré e Pós-Treino</h5>
+              <p class="card-text">A alimentação antes, durante e após o treino para ganhar massa muscular...</p>
+              <a href="pagina Pré e Pós.html" class="btn btn-primary" style="background-color: orangered; border-color:orangered;">Acesse</a>
+            </div>
+          </div>
+         <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Treinamento Funcional</h5>
+              <p class="card-text">Trata-se de um método de treino que utiliza exercícios que aprimoram nosso corpo para realização...</p>
+              <a href="pagina Treinamento.html" class="btn btn-primary" style="background-color: orangered; border-color:orangered;">Acesse</a>
+            </div>
+          </div>
+         <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Dicas para Iniciantes na Academia</h5>
+              <p class="card-text">Exercícios como agachamentos, flexões, abdominais e pranchas são ideais para...</p>
+              <a href="pagina iniciantes.html" class="btn btn-primary" style="background-color: orangered; border-color:orangered;">Acesse</a>
+            </div>
+          </div>
+         <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Suplementação Esportiva</h5>
+              <p class="card-text">a suplementação esportiva consiste na ingestão de substâncias que complementam a...</p>
+              <a href="pagina Suplementação.html" class="btn btn-primary" style="background-color: orangered; border-color:orangered;">Acesse</a>
+            </div>
+          </div>
+        </div>
+        <br>
+        <hr class="hr">
+        <h1 style="display: flex;color: white; justify-content: center;left: 10%;">Perguntas frequentes</h1>
+        <br> 
+        
+      <div class="cardg">
+        <div class="card" style="width: 60rem;">
+          
+          <div class="card-body"> 
+            <h5 class="card-title"><a href="pagina erros musc.html" style="color: orangered;">Quais são os erros na musculação que você deve evitar?</a></h5>
+            <p class="card-text">A musculação é uma forma eficaz de melhorar a força, a resistência e a composição corporal, mas muitas pessoas cometem erros que podem prejudicar seus resultados ou até mesmo levar a lesões. Neste artigo, vamos destacar alguns dos erros mais comuns que você deve evitar ao praticar musculação para garantir que você esteja obtendo o máximo de benefícios de seus treinos.
+              </p>
+            <p class="card-text"><small class="text-body-secondary">Postado por: Davi Torralvo, 19/05 - 18:30</small></p>
+          </div>
+          <img src="https://static.tuasaude.com/media/article/8y/ja/8-dicas-para-ganhar-massa-muscular_9437_l.webp"class="card-img-bottom" alt="...">
+          </div>
+        </div>
+        
+        <hr class="hr2">
+      
+        <div class="cardg">
+        <div class="card" style="width: 60rem;">
+
+          <div class="card-body"> 
+            <h5 class="card-title"><a href="pagina aumentar carga.html" style="color: orangered;">Em quanto tempo devo aumentar a carga?</a></h5>
+            <p class="card-text">O tempo ideal para aumentar a carga na academia varia de pessoa para pessoa, dependendo de diversos fatores, como nível de condicionamento físico, objetivos de treinamento, frequência de treino e capacidade de recuperação. No entanto, aqui estão algumas diretrizes gerais que podem ajudar:
+              </p>
+            <p class="card-text"><small class="text-body-secondary">Postado por: Davi Torralvo, 23/05 - 14:30</small></p>
+          </div>
+          <img src="https://saude.abril.com.br/wp-content/uploads/2023/08/homem-academia-musculacao-fitness.jpg?quality=85&strip=info&w=1024" class="card-img-bottom" alt="...">
+          </div>
+</div>
+
+
+<hr class="hr">
+
+       <!--------------------------penumbra do topo e liga---------------------------------->
+      <div class="penumbra"></div>
+
+         <div class="separadores">
+            <div class="separador1"></div>
+            <div class="separador2"></div>
+         </div>
+
+      <!--------------------------------------rodapé-------------------------------------->
+      <div class="card text-center">
+        <div class="card-header" style="background-color: rgba(0, 0, 0, 0.822); color: white; border: none;">
+          © 2024 Copyright - <a href="https://mail.google.com/mail/u/0/#inbox" style="color: orangered;">elite.shape@gmail.com</a>
+        </div>
+        <div class="card-body" style="background-color: orangered;">
+
+
+          <!--facebook-->
+          <a href="https://www.facebook.com/?locale=pt_BR">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png"></a>
+          
+          
+          <!--X-->
+          <a href="https://twitter.com/home?lang=pt-br">
+          <img src="https://img.freepik.com/vetores-gratis/twitter-novo-logotipo-2023-x-no-vetor-de-fundo-branco_1017-45422.jpg?size=338&ext=jpg&ga=GA1.1.1546980028.1714435200&semt=ais"></a>
+          
+          <!--Instagram-->
+          <a href="https://www.instagram.com/">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png"></a>
+          
+          <!--Youtube-->
+          <a href="https://www.youtube.com/">
+          <img src="https://cdn-icons-png.flaticon.com/256/1384/1384060.png"></a>
+        
+          <hr class="hr-space">
+          <p style="color: white;">Este blog é um projeto de estudantes</p><hr class="minimo-space"><p style="color: white;">Elaborado por <a id="car" href="https://github.com/cDorth">Carlos Dorth</a>, <a id="dav" href="https://github.com/DaviTorralvo">Davi Torralvo,</a> <a id="gui" href="https://github.com/gprsilva">Guilherme Pereira </a> e <a id="ped" href="https://github.com/pe-odake"> Pedro Odake </a></p>
+          <div class="seta">
+            <a href="#" class="btn btn-primary" style="background-color: black; border: none; border-radius: 50%;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+          </svg></a></div>
+        </div>
+        
+      </div>
+    
+
+
+
+</body>
+</html>
